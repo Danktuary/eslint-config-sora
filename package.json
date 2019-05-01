@@ -1,11 +1,11 @@
 {
-	"name": "eslint-config-aqua",
+	"name": "eslint-config-sora",
 	"version": "5.0.0",
 	"description": "ESLint shareable config",
 	"main": "index.js",
 	"author": {
-		"name": "iCrawl",
-		"email": "icrawltogo@gmail.com"
+		"name": "Sanctuary",
+		"email": "sanc.pw@gmail.com"
 	},
 	"license": "MIT",
 	"scripts": {
@@ -13,10 +13,10 @@
 	},
 	"repository": {
 		"type": "git",
-		"url": "git+https://github.com/iCrawl/eslint-config-aqua.git"
+		"url": "git+https://github.com/Danktuary/eslint-config-sora.git"
 	},
 	"bugs": {
-		"url": "https://github.com/iCrawl/eslint-config-aqua/issues"
+		"url": "https://github.com/Danktuary/eslint-config-sora/issues"
 	},
 	"keywords": [
 		"eslintconfig",
@@ -27,7 +27,7 @@
 		"eslint",
 		"validate"
 	],
-	"homepage": "https://github.com/iCrawl/eslint-config-aqua#readme",
+	"homepage": "https://github.com/Danktuary/eslint-config-sora#readme",
 	"devDependencies": {
 		"eslint": "^5.6.0"
 	},
