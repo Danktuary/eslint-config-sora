@@ -1,12 +1,12 @@
 const path = require('path');
 
 module.exports = {
-	'extends': path.join(__dirname, 'index.js'),
-	'env': {
+	extends: path.join(__dirname, 'index.js'),
+	env: {
 		es6: true,
-		node: true
+		node: true,
 	},
-	'rules': {
+	rules: {
 		'no-extra-parens': ['warn', 'all', { nestedBinaryExpressions: false }],
 		'no-template-curly-in-string': 'error',
 		'valid-jsdoc': ['warn', {
@@ -20,20 +20,20 @@ module.exports = {
 				'function': 'Function',
 				'object': 'Object',
 				'date': 'Date',
-				'error': 'Error'
-			}
+				'error': 'Error',
+			},
 		}],
 		'array-callback-return': 'error',
 		'object-shorthand': ['error', 'always'],
 		'prefer-destructuring': ['error', {
 			VariableDeclarator: {
 				array: false,
-				object: true
+				object: true,
 			},
 			AssignmentExpression: {
 				array: true,
-				object: false
-			}
+				object: false,
+			},
 		}],
 		'prefer-promise-reject-errors': 'error',
 		'keyword-spacing': ['error', {
@@ -42,8 +42,8 @@ module.exports = {
 				'for': { after: true },
 				'while': { after: true },
 				'catch': { after: true },
-				'switch': { after: true }
-			}
-		}]
-	}
+				'switch': { after: true },
+			},
+		}],
+	},
 };

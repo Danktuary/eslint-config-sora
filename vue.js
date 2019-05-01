@@ -1,30 +1,39 @@
 const path = require('path');
 
 module.exports = {
-	'parser': 'vue-eslint-parser',
-	'parserOptions': {
-		parser: 'babel-eslint'
+	parser: 'vue-eslint-parser',
+	parserOptions: {
+		parser: 'babel-eslint',
 	},
-	'extends': [
+	extends: [
 		'plugin:vue/recommended',
-		path.join(__dirname, 'index.js')
+		path.join(__dirname, 'index.js'),
 	],
-	'env': {
-		browser: true
+	env: {
+		browser: true,
 	},
-	'rules': {
-		'vue/html-indent': ['error', 'tab'],
-		'vue/max-attributes-per-line': [2, {
-			singleline: 1,
-			multiline: {
-				max: 1,
-				allowFirstLine: true
-			}
-		}],
+	rules: {
+		'vue/attributes-hyphenation': 'off',
 		'vue/html-closing-bracket-newline': ['error', {
 			singleline: 'never',
-			multiline: 'never'
+			multiline: 'never',
 		}],
-		'vue/attributes-hyphenation': 0
+		'vue/html-indent': ['error', 'tab'],
+		'vue/html-self-closing': ['error', {
+			html: {
+				void: 'always',
+				normal: 'never',
+				component: 'always',
+			},
+		}],
+		'vue/max-attributes-per-line': ['error', {
+			singleline: 4,
+			multiline: {
+				max: 1,
+				allowFirstline: false,
+			},
+		}],
+		'vue/require-default-prop': 'off',
+		'vue/require-prop-types': 'off',
 	}
 };
