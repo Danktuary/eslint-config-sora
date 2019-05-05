@@ -12,7 +12,7 @@
 	</p>
 </div>
 
-## Install
+## Installation
 
 ```bash
 yarn add -D eslint-config-sora
@@ -20,56 +20,23 @@ yarn add -D eslint-config-sora
 
 ## Usage
 
-Add the ESLint config to your `package.json`:
+This config assumes a Node, ES6 environment by default. The Vue config uses a browser environment. In your `.eslintrc.js` file:
 
-```json
-{
-	"name": "my-project",
-	...
-	"eslintConfig": {
-		"extends": "sora"
-	}
-}
+```js
+module.exports = {
+	extends: 'sora',
+};
 ```
 
-Or to `eslintrc.js` or `eslintrc.json`:
+For Vue:
 
-```json
-{
-	"extends": "sora"
-}
+```js
+module.exports = {
+	extends: 'sora/vue',
+};
 ```
 
-# Targets
-
-If you are developing with Javascript consider adding:
-
-```json
-{
-	"extends": "sora",
-	"env": {
-		"browser": true
-	}
-}
-```
-
-or use the platform specific configs for Node.js:
-
-```json
-{
-	"extends": "sora/node"
-}
-```
-
-or Vue.js:
-
-```json
-{
-	"extends": "sora/vue"
-}
-```
-
-Using the vue extended config will require you to additionally install `eslint-plugin-vue` and `babel-eslint`
+Using the Vue config will require you to additionally install `eslint-plugin-vue` and `babel-eslint`.
 
 ```bash
 yarn add -D babel-eslint eslint-plugin-vue

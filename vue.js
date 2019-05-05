@@ -11,6 +11,7 @@ module.exports = {
 	],
 	env: {
 		browser: true,
+		node: false,
 	},
 	rules: {
 		'vue/attributes-hyphenation': 'off',
@@ -35,5 +36,5 @@ module.exports = {
 		}],
 		'vue/require-default-prop': 'off',
 		'vue/require-prop-types': 'off',
-	}
+	},
 };
