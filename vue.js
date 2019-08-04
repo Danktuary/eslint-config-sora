@@ -5,7 +5,7 @@ module.exports = {
 	parserOptions: {
 		parser: 'babel-eslint',
 	},
-	extends: [
+	'extends': [
 		'plugin:vue/recommended',
 		path.join(__dirname, 'index.js'),
 	],
@@ -22,7 +22,7 @@ module.exports = {
 		'vue/html-indent': ['error', 'tab'],
 		'vue/html-self-closing': ['error', {
 			html: {
-				void: 'always',
+				'void': 'always',
 				normal: 'never',
 				component: 'always',
 			},

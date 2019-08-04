@@ -5,7 +5,7 @@ module.exports = {
 		browser: true,
 		node: true,
 	},
-	extends: [
+	'extends': [
 		'@nuxtjs',
 		'plugin:nuxt/recommended',
 		path.join(__dirname, './vue.js'),
