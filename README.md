@@ -41,3 +41,17 @@ Using the Vue config will require you to additionally install `eslint-plugin-vue
 ```bash
 yarn add -D babel-eslint eslint-plugin-vue
 ```
+
+For Nuxt:
+
+```js
+module.exports = {
+	extends: 'sora/nuxt',
+};
+```
+
+Using the Nuxt config will require you to additionally install `eslint-plugin-nuxt` and `babel-eslint`.
+
+```bash
+yarn add -D babel-eslint eslint-plugin-nuxt
+```
