@@ -28,6 +28,7 @@ module.exports = {
 			},
 		}],
 		'vue/max-attributes-per-line': ['warn', {
+			singleline: 5,
 			multiline: {
 				max: 1,
 				allowFirstline: false,
