@@ -15,20 +15,19 @@ module.exports = {
 	},
 	rules: {
 		'vue/attributes-hyphenation': 'off',
-		'vue/html-closing-bracket-newline': ['error', {
+		'vue/html-closing-bracket-newline': ['warn', {
 			singleline: 'never',
 			multiline: 'never',
 		}],
-		'vue/html-indent': ['error', 'tab'],
-		'vue/html-self-closing': ['error', {
+		'vue/html-indent': ['warn', 'tab'],
+		'vue/html-self-closing': ['warn', {
 			html: {
 				'void': 'always',
 				normal: 'never',
 				component: 'always',
 			},
 		}],
-		'vue/max-attributes-per-line': ['error', {
-			singleline: 4,
+		'vue/max-attributes-per-line': ['warn', {
 			multiline: {
 				max: 1,
 				allowFirstline: false,
