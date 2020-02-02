@@ -158,7 +158,7 @@ module.exports = {
 		'no-mixed-spaces-and-tabs': ['error', 'smart-tabs'],
 		'no-multi-assign': 'warn',
 		'no-multi-spaces': ['error', { ignoreEOLComments: true }],
-		'no-multi-str': 'error',
+		'no-multi-str': 'off',
 		'no-multiple-empty-lines': 'error',
 		'no-nested-ternary': 'off',
 		'no-new': 'off',
