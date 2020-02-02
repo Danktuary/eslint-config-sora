@@ -263,7 +263,7 @@ module.exports = {
 		'require-jsdoc': 'off',
 		'require-yield': 'warn',
 		'rest-spread-spacing': ['error', 'never'],
-		semi: ['warn', 'never', { omitLastInOneLineBlock: false }],
+		semi: ['warn', 'never'],
 		'semi-spacing': ['error', { before: false, after: true }],
 		'semi-style': ['error', 'last'],
 		'sort-imports': 'off',
