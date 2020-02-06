@@ -17,7 +17,7 @@ module.exports = {
 		'vue/attributes-hyphenation': 'off',
 		'vue/html-closing-bracket-newline': ['warn', {
 			singleline: 'never',
-			multiline: 'never',
+			multiline: 'always',
 		}],
 		'vue/html-indent': ['warn', 'tab'],
 		'vue/html-self-closing': ['warn', {
