@@ -1,4 +1,4 @@
-const path = require('path');
+const path = require('path')
 
 module.exports = {
 	env: {
@@ -10,4 +10,4 @@ module.exports = {
 		'plugin:nuxt/recommended',
 		path.join(__dirname, './vue.js'),
 	],
-};
+}

@@ -1,4 +1,4 @@
-const path = require('path');
+const path = require('path')
 const vueConfig = require('./vue-config.js')
 
 module.exports = {
@@ -7,4 +7,4 @@ module.exports = {
 		path.join(__dirname, 'index.js'),
 	],
 	...vueConfig,
-};
+}

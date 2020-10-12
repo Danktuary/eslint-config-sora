@@ -307,4 +307,4 @@ module.exports = {
 		'yield-star-spacing': ['warn', 'before'],
 		yoda: 'warn',
 	},
-};
+}
