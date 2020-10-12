@@ -32,7 +32,7 @@ For Vue:
 
 ```js
 module.exports = {
-	extends: 'sora/vue',
+	extends: 'sora/vue', // or 'sora/vue-3' for Vue 3
 };
 ```
 
