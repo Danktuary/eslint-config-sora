@@ -29,17 +29,14 @@
 	],
 	"homepage": "https://github.com/Danktuary/eslint-config-sora#readme",
 	"devDependencies": {
-		"eslint": "^5.6.0"
-	},
-	"peerDependencies": {
-		"babel-eslint": "^10.0.0",
-		"eslint": "^5.6.0",
-		"eslint-plugin-vue": "^5.0.0-beta.3"
+		"eslint": "^7.0.0",
+		"babel-eslint": "^10.1.0",
+		"eslint-plugin-vue": "^7.0.0"
 	},
 	"eslintConfig": {
 		"extends": "./index.js"
 	},
 	"engines": {
-		"node": ">=6"
+		"node": ">=8.10"
 	}
 }
